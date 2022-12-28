@@ -1,0 +1,23 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Django Tailwind</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	{% tailwind_css %}
+</head>
+
+<body>
+	<form>
+		<label class="block">
+			<span class="block">Job Title</span>
+			<input type="text" class="">
+		</label>
+		<button>Generate</button>
+	</form>
+</body>
+
+</html>
